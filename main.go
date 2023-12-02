@@ -8,7 +8,7 @@ import (
 
 func main() {
 	ginS.GET("/hello", func(context *gin.Context) {
-		context.JSON(http.StatusOK, "hello docker")
+		context.JSON(http.StatusOK, "hello Jenkins")
 	})
 	_ = ginS.Run(":8081")
 }
