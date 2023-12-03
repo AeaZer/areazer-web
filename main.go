@@ -10,5 +10,5 @@ func main() {
 	ginS.GET("/hello", func(context *gin.Context) {
 		context.JSON(http.StatusOK, "hello Jenkins")
 	})
-	_ = ginS.Run(":8081")
+	_ = ginS.Run(":8000")
 }
